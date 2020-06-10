@@ -4,6 +4,7 @@ import { NativeScriptModule } from "@nativescript/angular";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { TestComponent } from "./test/test.component";
+import { AboutComponent } from "./about/about.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -21,7 +22,8 @@ import { TestComponent } from "./test/test.component";
     ],
     declarations: [
         AppComponent,
-        TestComponent
+        TestComponent,
+        AboutComponent
     ],
     providers: [],
     schemas: [
